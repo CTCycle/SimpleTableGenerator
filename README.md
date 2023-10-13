@@ -25,4 +25,6 @@ The generated data is validated using different methods, including histograms an
 Requirement.txt file is provided to ensure full compatibility with the python application. The application has been tested using Python 3.10.12 
 
 ## How to use
+![GUI_simpletablegen](https://github.com/CTCycle/SimpleTableGenerator/assets/101833494/773cef93-914d-4c3c-a093-0400a6984b24)
+
 
