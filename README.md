@@ -21,10 +21,18 @@ The distribution fitting method uses an embedded mathematical solver (distfit pa
 ## Data validation
 The generated data is validated using different methods, including histograms and cumulative distribution functions, the Kolgomorov-Smirnoff test and the correlation matrix. These tests are performed to compare the distribution of real and generated (synthetic) data. The graphs are generated within the GUI window, but can also be saved using the designated button (bottom right corner), once you have selected a folder path.
 
-## Requirements
+## How to use
+Run the main file SimpleTableGen.py to launch the GUI window and navigate the various options. 
+
+### Requirements
 Requirement.txt file is provided to ensure full compatibility with the python application. The application has been tested using Python 3.10.12 
 
-## How to use
+### Program structure and functions
+Coming soon
+
+## Graphic interface
+Here is a snapshot of the main GUI window:
+
 ![GUI_simpletablegen](https://github.com/CTCycle/SimpleTableGenerator/assets/101833494/773cef93-914d-4c3c-a093-0400a6984b24)
 
 
