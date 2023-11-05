@@ -46,6 +46,8 @@ This application has been developed and tested using the following dependencies 
 ## Graphic interface
 Here is a snapshot of the main GUI window:
 
-![GUI_simpletablegen](https://github.com/CTCycle/SimpleTableGenerator/assets/101833494/773cef93-914d-4c3c-a093-0400a6984b24)
+![immagine_main](https://github.com/CTCycle/SimpleTableGenerator/assets/101833494/2c08724a-e05b-40ed-8822-78a4b7738d08)
+
+
 
 
