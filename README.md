@@ -22,13 +22,26 @@ The distribution fitting method uses an embedded mathematical solver (distfit pa
 The generated data is validated using different methods, including histograms and cumulative distribution functions, the Kolgomorov-Smirnoff test and the correlation matrix. These tests are performed to compare the distribution of real and generated (synthetic) data. The graphs are generated within the GUI window, but can also be saved using the designated button (bottom right corner), once you have selected a folder path.
 
 ## How to use
-Run the main file SimpleTableGen.py to launch the GUI window and navigate the various options. 
+Run the main file SimpleTableGen.py to launch the GUI window and navigate the various options. In the **Select folder paths** frame, you can select the source folder where your data are located and use the dropdown menu to select a specific file. At the bottom of the window, you can also select a folder where to save the processed data. 
+
+In the main window you will find the following buttons:
+
+**Cumulative Distribution Function (CDF):** generate synthetic data using the CDF method
+
+**Kernel sampling (KS):** generate synthetic data using the Kernel Sampling method (work in progress!)
+
+**Theoretical Distribution Fitting:** generate synthetic data using theoretical distribution models to fit the data with
+
+**Data Validation:** opens a new window with data validation operations. This window allows selecting one of the three distinct options, namely the histogram distribution, the Kolmogorov–Smirnov test and the Correlation matrix. 
+
 
 ### Requirements
-Requirement.txt file is provided to ensure full compatibility with the python application. The application has been tested using Python 3.10.12 
+This application has been developed and tested using the following dependencies (Python 3.10.12):
 
-### Program structure and functions
-Coming soon
+- `numpy==1.25.2`
+- `opencv-python==4.8.0.76`
+- `PySimpleGUI==4.60.5`
+- `tensorflow==2.10.0`
 
 ## Graphic interface
 Here is a snapshot of the main GUI window:

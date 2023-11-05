@@ -4,13 +4,14 @@ import random
 import numpy as np
 import pandas as pd
 import PySimpleGUI as sg
-import warnings
-warnings.simplefilter(action='ignore', category = DeprecationWarning)
-warnings.simplefilter(action='ignore', category = FutureWarning)
 
-# [IMPORT MODULES AND CLASSES]
-#==============================================================================
-sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
+# set warnings
+#------------------------------------------------------------------------------
+import warnings
+warnings.simplefilter(action='ignore', category = Warning)
+
+# import modules and classes
+#------------------------------------------------------------------------------ 
 from modules.components.data_classes import DataSetFinder, DataGenerator
 import modules.global_variables as GlobVar
 
@@ -139,9 +140,9 @@ while True:
         distfit_sampling = DataGenerator() 
         synthetic_data = distfit_sampling.dist_fitter(df, num_entries, progress_bar)
         synthetic_df = pd.DataFrame(synthetic_data).T
-        GlobVar.synthetic_dataframe = df_synthetic
+        GlobVar.synthetic_dataframe = synthetic_df
         folder_path = values['-SAVEPATH-']
-        save_path = os.path.join(folder_path, 'TDF_synthetic__{}.csv'.format(file_name))
+        save_path = os.path.join(folder_path, 'TDF_synthetic_{}.csv'.format(file_name))
         df_synthetic.to_csv(save_path, index = False, sep = ';', encoding = 'utf-8')
         main_window['-VALID-'].update(disabled = False)
 
