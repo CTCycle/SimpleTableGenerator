@@ -22,7 +22,7 @@ The distribution fitting method uses an embedded mathematical solver (distfit pa
 The generated data is validated using different methods, including histograms and cumulative distribution functions, the Kolgomorov-Smirnoff test and the correlation matrix. These tests are performed to compare the distribution of real and generated (synthetic) data. The graphs are generated within the GUI window, but can also be saved using the designated button (bottom right corner), once you have selected a folder path.
 
 ## How to use
-Run the main file SimpleTableGen.py to launch the GUI window and navigate the various options. In the **Select folder paths** frame, you can select the source folder where your data are located and use the dropdown menu to select a specific file. At the bottom of the window, you can also select a folder where to save the processed data. 
+Run the main file STABLEGEN.py to launch the GUI window and navigate the various options. In the **Select folder paths** frame, you can select the source folder where your data are located and use the dropdown menu to select a specific file. At the bottom of the window, you can also select a folder where to save the processed data. 
 
 In the main window you will find the following buttons:
 
