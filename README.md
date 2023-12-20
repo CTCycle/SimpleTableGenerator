@@ -34,7 +34,6 @@ In the main window you will find the following buttons:
 
 **Data Validation:** opens a new window with data validation operations. This window allows selecting one of the three distinct options, namely the histogram distribution, the Kolmogorov–Smirnov test and the Correlation matrix. 
 
-
 ### Requirements
 This application has been developed and tested using the following dependencies (Python 3.10.12):
 
@@ -48,6 +47,7 @@ Here is a snapshot of the main GUI window:
 
 ![immagine_main](https://github.com/CTCycle/SimpleTableGenerator/assets/101833494/2c08724a-e05b-40ed-8822-78a4b7738d08)
 
-
+## License
+This project is licensed under the terms of the MIT license. See the LICENSE file for details.
 
 
